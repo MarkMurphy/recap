@@ -16,13 +16,13 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency('capistrano', '~>2.9')
+  s.add_dependency('capistrano', '~>3.2.1')
   s.add_dependency('thor')
   s.add_dependency('open4')
-  s.add_development_dependency('rake', '~>0.9.2')
+  s.add_development_dependency('rake', '~>10.3.1')
   s.add_development_dependency('fl-rocco', '~>1.0.0')
-  s.add_development_dependency('rspec', '~>2.13.0')
-  s.add_development_dependency('mocha', '~>0.10.0')
-  s.add_development_dependency('cucumber', '~>1.1.4')
-  s.add_development_dependency('faker', '~>1.0.1')
+  s.add_development_dependency('rspec', '~>2.14.1')
+  s.add_development_dependency('mocha', '~>1.1.0')
+  s.add_development_dependency('cucumber', '~>1.3.15')
+  s.add_development_dependency('faker', '~>1.3.0')
 end
