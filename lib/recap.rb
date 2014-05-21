@@ -108,6 +108,8 @@
 # The code is available [on github](https://github.com/freerange/recap) and released under the
 # [MIT License](https://github.com/freerange/recap/blob/master/LICENSE)
 
+require 'recap/i18n'
+
 module Recap
   module Support
     autoload :Compatibility, 'recap/support/compatibility'
